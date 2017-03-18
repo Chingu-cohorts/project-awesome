@@ -11,7 +11,7 @@ This will be a document with step by step guides that will help you get your pro
 ### Hosting a full stack application.
 
 
-### Tips for collaborating
+### Using a linter to enforce consistent style.
 
 Use a linter. This is a tool which enforces a style around your code. It doesn't matter if 1 or 30 people are working on your project, a consistent style is a good way to stay sane. **No way is 'right'.**    
 If you are just starting, use standard JS guide. If you want to go further, make a decision about what is best to solve the problem at hand.  
@@ -33,3 +33,23 @@ How to use linting in atom with packages.
 
 If you are unable to do this, run eslint in the command line.  
 [eslint](http://eslint.org/)
+
+### Simple git commands.  
+**examples**  
+```bash
+# project startup
+git init
+git remote add origin https://github.com/Chingu-cohorts/project-resources.git  
+
+# new branch
+git checkout -b develop
+git branch
+
+# committing
+git add .
+git commit -m 'hello world'
+git push origin master
+
+# oh shit
+git reset HEAD~
+```
