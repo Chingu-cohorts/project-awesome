@@ -78,6 +78,9 @@ git push origin master
 
 # oh shit
 git reset HEAD~
+
+# get fancy
+git branch -u origin/master # now you only need 'git push' as opposed to 'git push origin master'
 ```
 
 ### Use a .gitignore to keep your project clean.
