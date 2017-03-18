@@ -3,10 +3,17 @@
 Why?   
 Many people need resources to educate and guide them on planning/deployment/collaboration.  
 
-**Simply put, everything about coding that isn't writing code.**
+**Simply put, a guide for everything about coding that isn't writing code.**
 
 What?  
 This will be a document with step by step guides that will help you get your project done.  
+
+### Project structure.  
+[Damn good template](https://github.com/Madmous/Trello-Clone)  
+1. mkdir projectname
+2. cd projectname  
+3. create-react-app client  
+4. mkdir server  
 
 ### Hosting a full stack application.
 The best/cheapest way to professionally host your application is going to be on amazon web services (aws).  
