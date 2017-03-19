@@ -9,7 +9,7 @@ What?
 This will be a document with step by step guides that will help you get your project done.  
 
 ### Project structure.  
-[Damn good template](https://github.com/Madmous/Trello-Clone)  
+[Good template](https://github.com/Madmous/Trello-Clone)  
 1. mkdir projectname
 2. cd projectname  
 3. create-react-app client  
@@ -120,4 +120,23 @@ C:UsersUsernodejsnpm-cache
 public
 ```
 
-### Use commitizen and semantic release to keep git commit messages clean and automatically create changelogs.
+### Use commitizen to enforce commit style.
+
+
+### Use semantic release to generate automatic versions and changelogs.
+
+### Writing a README
+
+Each project should include a README.md file at the top level.  
+Here's a good template for what your README should look like.  
+
+
+```markdown
+### Project Resources
+
+**Project Description:** This is a resource library with step by step guides for deployment, code style, and all the other fun stuff about making a project that isn't writing the code. You can message @mmhansen in chingu central if you are having a problem or if you'd like to contribute. Thanks!
+
+**Slack:** #project-awesome
+
+**Project Leads:** @mmhansen
+```
